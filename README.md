@@ -1,0 +1,1 @@
+Use the setup.exe inside the build folder to install this keyboard layout.
