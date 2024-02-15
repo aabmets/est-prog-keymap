@@ -1,0 +1,61 @@
+// Estonian layout for programmers, by Mattias Aabmets
+
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+    include "level3(alt_switch)"
+
+    name[Group1]= "Estonian (Programmers)";
+
+    key <TLDE> {[   at,	        grave           ]};
+    key <AE01> {[   1,	        apostrophe 		]};
+    key <AE02> {[   2,	        quotedbl		]};
+    key <AE03> {[   3,	        numbersign	    ]};
+    key <AE04> {[   4,	        dollar		    ]};
+    key <AE05> {[   5,	        percent		    ]};
+    key <AE06> {[   6,	        asciitilde	    ]};
+    key <AE07> {[   7,	        asciicircum	    ]};
+    key <AE08> {[   8,	        bar	            ]};
+    key <AE09> {[   9,	        ampersand	    ]};
+    key <AE10> {[   0,	        equal	        ]};
+    key <AE11> {[   parenleft,	leftcaret	    ]};
+    key <AE12> {[   parenright,	rightcaret		]};
+
+    key <AD01> {[   q,	        Q 		        ]};
+    key <AD02> {[   w,	        W		        ]};
+    key <AD03> {[   e,	        E		        ]};
+    key <AD04> {[   r,	        R		        ]};
+    key <AD05> {[   t,	        T	        	]};
+    key <AD06> {[   y,	        Y	        	]};
+    key <AD07> {[   u,	        U	        	]};
+    key <AD08> {[   i,	        I	        	]};
+    key <AD09> {[   o,	        O	        	]};
+    key <AD10> {[   p,	        P		        ]};
+    key <AD11> {[   braceleft,  bracketleft,    udiaeresis,     Udiaeresis      ]};
+    key <AD12> {[   braceright, bracketright,   otilde,         Otilde          ]};
+    key <BKSL> {[   underscore, backslash	    ]};
+
+    key <AC01> {[   a,	        A 		    ]};
+    key <AC02> {[	s,	        S,          scaron,         Scaron          ]};
+    key <AC03> {[	d,	        D		    ]};
+    key <AC04> {[	f,	        F		    ]};
+    key <AC05> {[	g,	        G		    ]};
+    key <AC06> {[	h,	        H		    ]};
+    key <AC07> {[	j,	        J		    ]};
+    key <AC08> {[	k,	        K		    ]};
+    key <AC09> {[	l,	        L		    ]};
+    key <AC10> {[   plus,	    asterisk,   odiaeresis,     Odiaeresis      ]};
+    key <AC11> {[   minus,	    slash,      adiaeresis,     Adiaeresis	    ]};
+
+    key <AB01> {[   z,	        Z, 		    zcaron,     Zcaron      ]};
+    key <AB02> {[	x,	        X		    ]};
+    key <AB03> {[	c,	        C		    ]};
+    key <AB04> {[	v,	        V		    ]};
+    key <AB05> {[	b,	        B		    ]};
+    key <AB06> {[	n,	        N		    ]};
+    key <AB07> {[	m,	        M		    ]};
+    key <AB08> {[   comma,	    semicolon	]};
+    key <AB09> {[   period,	    colon		]};
+    key <AB10> {[   question,	exclam	    ]};
+};
+
